@@ -1,26 +1,329 @@
 ---
-title: "Peat Practitioner Course QGIS"
-format: html
-editor: visual
+title: "QGIS for Peatland Restoration Practitioners"
+format:
+  html:
+    toc: TRUE
+    toc-location: left
+    toc-title: "Contents"
+    toc-depth: 5
 ---
 
-## Quarto
+*QGIS support for activities throughout the Peatland Restoration Practitioners course.*
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+We will be using QGIS to develop GIS skills useful for Peatland Restoration. Before the course, please ensure you have access to QGIS on your laptop and run through the QGIS Set up resource below to prepare for activities.
 
-## Running Code
+If you need to download QGIS please download version **3.16 long term release**: [Download QGIS](https://qgis.org/en/site/forusers/download.html)
 
-When you click the **Render** button a document will be generated that includes both content and the output of embedded code. You can embed code like this:
+# QGIS Setup
 
-```{r}
-1 + 1
-```
+## General settings
 
-You can add options to executable code like this
+![](/assets/ref-qgis-settings-01.png){fig-align="center"}
 
-```{r}
-#| echo: false
-2 * 2
-```
+## Project Settings
 
-The `echo: false` option disables the printing of code (only output is displayed).
+![](/assets/ref-qgis-settings-02.png){fig-align="center"}
+
+## Installing Plugins {#sec-plugins}
+
+Open QGIS.
+
+On the **Menu Toolbar** at the top of the application, navigate to **Plugins \> Manage and Install Plugins...**
+
+This will open the plugin manager.
+
+Begin typing the name of the plugin you want to install in the search bar. The available plugins will be filtered in the box below.
+
+Select the plugin you want and **Install Plugin**.
+
+![](/assets/t-plugins-01.png){fig-align="center"}
+
+::: callout-note
+Plugins only needed to be installed once and they will be available everytine you open QGIS.
+:::
+
+For the course, please install the following plugins:
+
+### QuickMapServices
+
+Provides background maps for QGIS from a variety of popular sources including, OSM, Esri, Google and Bing.
+
+::: callout-note
+**QuickMapSerrvices** has an additional step to enable all the background maps.
+
+To enable all the maps, go to **Web \> QuickMapServices \> Settings**
+
+Find the **More services** tab and click **Get contributed pack** then **Save**.
+
+![](/assets/ref-plugins-qms-01.PNG){fig-align="center"}
+
+The plugin is then available on the **Web \> QuickMapServices \> ...** tab of the **Menu Toolbar**.
+
+::: callout-note
+The contributed pack only needs to be downloaded once per plugin install.
+:::
+:::
+
+### GroupStats
+
+GroupStats is a plugin which allows you to aggregate data (sum, average, count, standard deviation, etc.) based on chosen groupings. It can be used on layers with a numerical column, or it can be used to calculate the individual or aggregate lengths/ areas from geometries.
+
+## QGIS Basics
+
+### How to open a QGIS project
+
+:::{.column-page}
+![](/assets/basics%20open%20qgz%20project.gif){fig-align="center"}
+:::
+
+### How to add a new layer
+
+:::{.column-page}
+![](/assets/basics%20new%20layer.gif){fig-align="center"}
+:::
+
+### How to access background maps with QuickMapServices
+
+:::{.column-page}
+![](/assets/basics%20opening%20background%20maps.gif){fig-align="center"}
+:::
+
+### How to switch between layers and add themes
+
+:::{.column-page}
+![](/assets/basics%20layers%20and%20themes.gif){fig-align="center"}
+:::
+
+## Processing Toolbox
+
+### How to access the processing toolbox
+
+:::{.column-page}
+![](/assets/toolbox%20opening%20toolbox.gif){fig-align="center"}
+:::
+
+### How to select by attribute
+
+:::{.column-page}
+![](/assets/toolbox%20select%20by%20attribute.gif){fig-align="center"}
+:::
+
+### How to package layers
+
+:::{.column-page}
+![](/assets/toolbox%20package%20layers.gif){fig-align="center"}
+:::
+
+## Introductory Tools
+
+### How to use the idenitfy tool to view attributes
+
+:::{.column-page}
+![](/assets/introduction%20Identify_tool.gif){fig-align="center"}
+:::
+
+# Pre-Survey Mapping
+
+## Digitising Basics
+
+### Introduction
+
+This tutorial will show you how to use QGIS to digitise features as well as best practices to ensure the features are accurately drawn.
+
+#### What is Digitising?
+
+Digitising is a term used in GIS for creating a vector data set that represents a real world feature. Vector data-sets are useful in that they allow the computer to easily calculate geometric attributes such as area or length.
+
+#### Creating a Layer
+
+Ordinarily, layers will already be created for you ready for digitising.
+
+In this tutorial, however, we will create a **Temporary Scratch Layer** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCreateMemory.svg) for practicing.
+
+In QGIS, navigate to **Layer \> Create Layer \> New Temporary Scratch Layer...** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCreateMemory.svg)
+
+Change the **Layer name** and the **Geometry type** to the type of layer you would like to create.
+
+#### Adding Features {#sec-adding-features}
+
+To begin digitising, click once on the layer you want to edit from the **Layer Panel**. A blue layer means it is selected.
+
+Click on the yellow pencil ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionToggleEditing.svg) on the **Digitising Panel** to **Toggle Digitising Mode**.
+
+![](/assets/t-digitise-peatlands-digitise-panel-01.png){fig-align="center"}
+
+Once you are in digitising mode, the **Add Feature** icon will become available. Depending on the geometry type of the temporary vector layer you have created, this will look slightly different.
+
+|                                            Add Feature Icon                                             | Layer geometry type         |
+|:---------------------------------------------------:|-------------------|
+|  ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCapturePoint.svg)  | Point, MultiPoint           |
+|  ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCaptureLine.svg)   | LineString, MultiLineString |
+| ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCapturePolygon.svg) | Polygon, MultiPolygon       |
+
+To digitise, left click to place a node. Move the mouse and left click again to add another node.
+
+If you have made a mistake, press **Backspace** to remove the previous node.
+
+Once you have finished the feature, right click to complete the geometry.
+
+**Save Layer Edits** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionSaveAllEdits.svg) to commit the changes to the data source.
+
+::: {layout-nrow="2"}
+![](/assets/t-digitising-01.gif){fig-align="center"}
+
+![](/assets/t-digitising-02.gif){fig-align="center"}
+:::
+
+##### Snapping
+
+The QGIS Snapping tool can be used to create features that connect to each other, to increase the accuracy of edits.
+
+To turn on snapping, navigate to **Project \> Snapping Options... \> Enable Snapping (S)** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnapping.svg)
+
+Turn on **All Layers** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnappingAllLayers.svg), **Vertex** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnappingVertex.svg).
+
+Click on the yellow pencil ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionToggleEditing.svg) on the **Digitising Panel** to **Toggle Digitising Mode**.
+
+Hover over the vertices of the layer you would like to snap to. It should show a purple box.
+
+Left click to begin snapping and adding to the **Temporary Scratch Layer** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCreateMemory.svg).
+
+![](/assets/t-digitising-03.gif){fig-align="center"}
+
+##### Tracing {#sec-tracing}
+
+Accurately matching features such as site boundaries can be challenging.
+
+It is tedious and time consuming to make sure you snap to every point on a feature and inevitably, you may end up with something looking like this:
+
+![](/assets/t-tips-tracing-01.png)
+
+As you can see, there are a lot of gaps and the overlap between features are called 'slivers'.
+
+::: callout-important
+Gaps and slivers must be avoided, as this may result in implications for calculating areas correctly.
+:::
+
+QGIS provides an excellent tracing tool which automatically snaps along the shortest path, ensuring that there are no overlaps or gaps.
+
+Select **Enable** **Snapping (S)**![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnapping.svg), click on **Open Snapping Options** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnappingAllLayers.svg)and navigate to **Advanced Configuration** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mIconSnappingAdvanced.svg) in the **Project Snapping Settings** to turn snapping on for your desired layer.
+
+![](/assets/t-tips-tracing-04.PNG){fig-align="center"}
+
+Select the **Enable Tracing (T)** tool ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionTracing.svg), **Toggle Editing** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionToggleEditing.svg) and select the **Add Polygon Feature (Ctrl+.)** ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCapturePolygon.svg) to begin tracing the site boundary.
+
+![](/assets/t-tips-tracing-03.gif){fig-align="center" width="683"}
+
+Now you should have topologically correct boundaries:
+
+![](/assets/t-tips-tracing-02.png){fig-align="center"}
+
+## Digitising specific features
+
+### Access tracks
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_map_access.gif){fig-align="center"}
+:::
+
+### Watercourses
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_map_watercourse.gif){fig-align="center"}
+:::
+
+#### Editing digitised watercourses
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_edit_watercourse.gif){fig-align="center"}
+:::
+
+### Grips
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_grip.gif){fig-align="center"}
+:::
+
+### Gullies
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_gully.gif){fig-align="center"}
+:::
+
+### Hags
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_hags.gif){fig-align="center"}
+:::
+
+### Areas of bare peat
+
+:::{.column-page}
+![](/assets/Pre-Survey_Mapping_bare_peat.gif){fig-align="center"}
+:::
+
+## Survey setup
+
+### Adding survey points
+
+:::{.column-page}
+![](/assets/survey%20set%20up%20points_and_clip.gif){fig-align="center"}
+:::
+
+### Creating a print preview
+
+:::{.column-page}
+![](/assets/survey set up print preview.gif){fig-align="center"}
+:::
+
+# Post-Survey Mapping
+
+## Categorising features
+
+## Extracting data from QGIS
+
+*Placeholder*
+
+### Using GroupStats Plugin
+
+Ensure the GroupStats Plugin has been installed using the **Plugins manager** in QGIS.
+
+![](/assets/t-groupstats-01.png)
+
+If it has not been installed, please follow the [guide to installing plugins](#sec-plugins).
+
+## Using the GroupStats Plugin
+
+Once the plugin has installed, you can open it by navigating to **Vector \> Group Stats.**
+
+Here is an example dataset which contains all the grips, gullies, and hags for a site, along with their categories:
+
+![](/assets/t-groupstats-02.png)
+
+The plugin works by dragging and dropping certain fields into the **Column, Row** and **Value** boxes on the **GroupStats** window. The large box on the left-hand side will display the results of your calculation.
+
+::: callout-tip
+If you are familiar with [Excel Pivot Tables](https://www.howtogeek.com/701536/how-to-use-pivot-tables-to-analyze-excel-data/), the principle is the same.
+:::
+
+You must first select the layer you are would like to analyse on the **Layers** drop down which will populate the **Fields** box.
+
+The **Rows** or **Column** box is where you put the field you want to group by. The **Value** box takes two parameters - the value you want to aggregate, and the aggregation function.
+
+In this example, the value to be aggregated is **Length**, using the aggregation function **Sum**.
+
+![](/assets/t-groupstats-03.png)
+
+::: callout-note
+You can group the data by multiple fields, in the **Rows** or **Columns** boxes
+:::
+
+Once you have setup the inputs to the GroupStats calculation, click **Calculate** to see the result:
+
+![](/assets/t-groupstats-04.png)
+
+### Restoration Example
+
+:::{.column-page}
+![](/assets/Groupstats.gif){fig-align="center"}
+:::
