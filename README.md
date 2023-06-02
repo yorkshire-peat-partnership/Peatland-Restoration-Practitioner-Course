@@ -1,4 +1,4 @@
-# Peatland Restoration Practioner Course
+# Peatland Restoration Practitioner Course
 
 ![](https://github.com/yorkshire-peat-partnership/Peatland-Restoration-Practioner-Course/blob/main/YPP_logo.png)
 
