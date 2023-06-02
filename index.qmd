@@ -8,6 +8,8 @@ format:
     toc-depth: 5
 ---
 
+![](/assets/YWT-Logo-Primary - Copy.png) ![](YPP_logo.png)
+
 *QGIS support for activities throughout the Peatland Restoration Practitioners course.*
 
 We will be using QGIS to develop GIS skills useful for Peatland Restoration. Before the course, please ensure you have access to QGIS on your laptop and run through the QGIS Set up resource below to prepare for activities.
@@ -39,7 +41,7 @@ Select the plugin you want and **Install Plugin**.
 ![](/assets/t-plugins-01.png){fig-align="center"}
 
 ::: callout-note
-Plugins only needed to be installed once and they will be available everytine you open QGIS.
+Plugins only needed to be installed once and they will be available everytime you open QGIS.
 :::
 
 For the course, please install the following plugins:
@@ -49,7 +51,7 @@ For the course, please install the following plugins:
 Provides background maps for QGIS from a variety of popular sources including, OSM, Esri, Google and Bing.
 
 ::: callout-note
-**QuickMapSerrvices** has an additional step to enable all the background maps.
+**QuickMapServices** has an additional step to enable all the background maps.
 
 To enable all the maps, go to **Web \> QuickMapServices \> Settings**
 
@@ -150,7 +152,7 @@ To begin digitising, click once on the layer you want to edit from the **Layer P
 
 Click on the yellow pencil ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionToggleEditing.svg) on the **Digitising Panel** to **Toggle Digitising Mode**.
 
-![](/assets/t-digitise-peatlands-digitise-panel-01.png){fig-align="center"}
+![](/assets/t-digitise-peatlands-digitise-panel.png){fig-align="center"}
 
 Once you are in digitising mode, the **Add Feature** icon will become available. Depending on the geometry type of the temporary vector layer you have created, this will look slightly different.
 
