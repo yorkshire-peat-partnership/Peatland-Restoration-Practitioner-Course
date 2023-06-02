@@ -2,15 +2,92 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Peat Practitioner Course QGIS",
+    "title": "QGIS for Peatland Restoration Practitioners",
     "section": "",
-    "text": "Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+    "text": "QGIS support for activities throughout the Peatland Restoration Practitioners course.\nWe will be using QGIS to develop GIS skills useful for Peatland Restoration. Before the course, please ensure you have access to QGIS on your laptop and run through the QGIS Set up resource below to prepare for activities.\nIf you need to download QGIS please download version 3.16 long term release: Download QGIS"
   },
   {
-    "objectID": "index.html#running-code",
-    "href": "index.html#running-code",
-    "title": "Peat Practitioner Course QGIS",
-    "section": "Running Code",
-    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n1 + 1\n\n[1] 2\n\n\nYou can add options to executable code like this\n\n\n[1] 4\n\n\nThe echo: false option disables the printing of code (only output is displayed)."
+    "objectID": "index.html#general-settings",
+    "href": "index.html#general-settings",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "General settings",
+    "text": "General settings"
+  },
+  {
+    "objectID": "index.html#project-settings",
+    "href": "index.html#project-settings",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Project Settings",
+    "text": "Project Settings"
+  },
+  {
+    "objectID": "index.html#sec-plugins",
+    "href": "index.html#sec-plugins",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Installing Plugins",
+    "text": "Installing Plugins\nOpen QGIS.\nOn the Menu Toolbar at the top of the application, navigate to Plugins > Manage and Install Plugins…\nThis will open the plugin manager.\nBegin typing the name of the plugin you want to install in the search bar. The available plugins will be filtered in the box below.\nSelect the plugin you want and Install Plugin.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPlugins only needed to be installed once and they will be available everytine you open QGIS.\n\n\nFor the course, please install the following plugins:\n\nQuickMapServices\nProvides background maps for QGIS from a variety of popular sources including, OSM, Esri, Google and Bing.\n\n\n\n\n\n\nNote\n\n\n\nQuickMapSerrvices has an additional step to enable all the background maps.\nTo enable all the maps, go to Web > QuickMapServices > Settings\nFind the More services tab and click Get contributed pack then Save.\n\n\n\n\n\nThe plugin is then available on the Web > QuickMapServices > … tab of the Menu Toolbar.\n\n\n\n\n\n\nNote\n\n\n\nThe contributed pack only needs to be downloaded once per plugin install.\n\n\n\n\n\n\nGroupStats\nGroupStats is a plugin which allows you to aggregate data (sum, average, count, standard deviation, etc.) based on chosen groupings. It can be used on layers with a numerical column, or it can be used to calculate the individual or aggregate lengths/ areas from geometries."
+  },
+  {
+    "objectID": "index.html#qgis-basics",
+    "href": "index.html#qgis-basics",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "QGIS Basics",
+    "text": "QGIS Basics\n\nHow to open a QGIS project\n\n\n\n\n\n\n\n\n\nHow to add a new layer\n\n\n\n\n\n\n\n\n\nHow to access background maps with QuickMapServices\n\n\n\n\n\n\n\n\n\nHow to switch between layers and add themes"
+  },
+  {
+    "objectID": "index.html#processing-toolbox",
+    "href": "index.html#processing-toolbox",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Processing Toolbox",
+    "text": "Processing Toolbox\n\nHow to access the processing toolbox\n\n\n\n\n\n\n\n\n\nHow to select by attribute\n\n\n\n\n\n\n\n\n\nHow to package layers"
+  },
+  {
+    "objectID": "index.html#introductory-tools",
+    "href": "index.html#introductory-tools",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Introductory Tools",
+    "text": "Introductory Tools\n\nHow to use the idenitfy tool to view attributes"
+  },
+  {
+    "objectID": "index.html#digitising-basics",
+    "href": "index.html#digitising-basics",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Digitising Basics",
+    "text": "Digitising Basics\n\nIntroduction\nThis tutorial will show you how to use QGIS to digitise features as well as best practices to ensure the features are accurately drawn.\n\nWhat is Digitising?\nDigitising is a term used in GIS for creating a vector data set that represents a real world feature. Vector data-sets are useful in that they allow the computer to easily calculate geometric attributes such as area or length.\n\n\nCreating a Layer\nOrdinarily, layers will already be created for you ready for digitising.\nIn this tutorial, however, we will create a Temporary Scratch Layer  for practicing.\nIn QGIS, navigate to Layer > Create Layer > New Temporary Scratch Layer… \nChange the Layer name and the Geometry type to the type of layer you would like to create.\n\n\nAdding Features\nTo begin digitising, click once on the layer you want to edit from the Layer Panel. A blue layer means it is selected.\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode.\n\n\n\n\n\nOnce you are in digitising mode, the Add Feature icon will become available. Depending on the geometry type of the temporary vector layer you have created, this will look slightly different.\n\n\n\n\n\n\n\nAdd Feature Icon\nLayer geometry type\n\n\n\n\n\nPoint, MultiPoint\n\n\n\nLineString, MultiLineString\n\n\n\nPolygon, MultiPolygon\n\n\n\nTo digitise, left click to place a node. Move the mouse and left click again to add another node.\nIf you have made a mistake, press Backspace to remove the previous node.\nOnce you have finished the feature, right click to complete the geometry.\nSave Layer Edits  to commit the changes to the data source.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnapping\nThe QGIS Snapping tool can be used to create features that connect to each other, to increase the accuracy of edits.\nTo turn on snapping, navigate to Project > Snapping Options… > Enable Snapping (S) \nTurn on All Layers , Vertex .\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode.\nHover over the vertices of the layer you would like to snap to. It should show a purple box.\nLeft click to begin snapping and adding to the Temporary Scratch Layer .\n\n\n\n\n\n\n\nTracing\nAccurately matching features such as site boundaries can be challenging.\nIt is tedious and time consuming to make sure you snap to every point on a feature and inevitably, you may end up with something looking like this:\n\nAs you can see, there are a lot of gaps and the overlap between features are called ‘slivers’.\n\n\n\n\n\n\nImportant\n\n\n\nGaps and slivers must be avoided, as this may result in implications for calculating areas correctly.\n\n\nQGIS provides an excellent tracing tool which automatically snaps along the shortest path, ensuring that there are no overlaps or gaps.\nSelect Enable Snapping (S), click on Open Snapping Options and navigate to Advanced Configuration  in the Project Snapping Settings to turn snapping on for your desired layer.\n\n\n\n\n\nSelect the Enable Tracing (T) tool , Toggle Editing  and select the Add Polygon Feature (Ctrl+.)  to begin tracing the site boundary.\n\n\n\n\n\nNow you should have topologically correct boundaries:"
+  },
+  {
+    "objectID": "index.html#digitising-specific-features",
+    "href": "index.html#digitising-specific-features",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Digitising specific features",
+    "text": "Digitising specific features\n\nAccess tracks\n\n\n\n\n\n\n\n\n\nWatercourses\n\n\n\n\n\n\n\n\nEditing digitised watercourses\n\n\n\n\n\n\n\n\n\n\nGrips\n\n\n\n\n\n\n\n\n\nGullies\n\n\n\n\n\n\n\n\n\nHags\n\n\n\n\n\n\n\n\n\nAreas of bare peat"
+  },
+  {
+    "objectID": "index.html#survey-setup",
+    "href": "index.html#survey-setup",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Survey setup",
+    "text": "Survey setup\n\nAdding survey points\n\n\n\n\n\n\n\n\n\nCreating a print preview"
+  },
+  {
+    "objectID": "index.html#categorising-features",
+    "href": "index.html#categorising-features",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Categorising features",
+    "text": "Categorising features"
+  },
+  {
+    "objectID": "index.html#extracting-data-from-qgis",
+    "href": "index.html#extracting-data-from-qgis",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Extracting data from QGIS",
+    "text": "Extracting data from QGIS\nPlaceholder\n\nUsing GroupStats Plugin\nEnsure the GroupStats Plugin has been installed using the Plugins manager in QGIS.\n\nIf it has not been installed, please follow the guide to installing plugins."
+  },
+  {
+    "objectID": "index.html#using-the-groupstats-plugin",
+    "href": "index.html#using-the-groupstats-plugin",
+    "title": "QGIS for Peatland Restoration Practitioners",
+    "section": "Using the GroupStats Plugin",
+    "text": "Using the GroupStats Plugin\nOnce the plugin has installed, you can open it by navigating to Vector > Group Stats.\nHere is an example dataset which contains all the grips, gullies, and hags for a site, along with their categories:\n\nThe plugin works by dragging and dropping certain fields into the Column, Row and Value boxes on the GroupStats window. The large box on the left-hand side will display the results of your calculation.\n\n\n\n\n\n\nTip\n\n\n\nIf you are familiar with Excel Pivot Tables, the principle is the same.\n\n\nYou must first select the layer you are would like to analyse on the Layers drop down which will populate the Fields box.\nThe Rows or Column box is where you put the field you want to group by. The Value box takes two parameters - the value you want to aggregate, and the aggregation function.\nIn this example, the value to be aggregated is Length, using the aggregation function Sum.\n\n\n\n\n\n\n\nNote\n\n\n\nYou can group the data by multiple fields, in the Rows or Columns boxes\n\n\nOnce you have setup the inputs to the GroupStats calculation, click Calculate to see the result:\n\n\nRestoration Example"
   }
 ]
