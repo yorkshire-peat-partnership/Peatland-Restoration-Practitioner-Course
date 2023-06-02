@@ -1,6 +1,6 @@
 # Peatland Restoration Practioner Course
 
-![](YPP-logo.png)
+![](https://github.com/yorkshire-peat-partnership/Peatland-Restoration-Practioner-Course/blob/main/YPP_logo.png)
 
 Welcome to the Peat Restoration Practitioner GitHub! This is our repository for the GIS data you will need throughout the course. Please ensure this is downloaded onto your laptop ahead of the session.
 ### Day 2 (Tuesday 13th June)
