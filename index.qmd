@@ -8,7 +8,7 @@ format:
     toc-depth: 5
 ---
 
-![](/assets/YWT-Logo-Primary - Copy.png) ![](YPP_logo.png)
+![](/assets/YWT-Logo-Primary - Copy.png) ![](/assets/YPP_logo.png)
 
 *QGIS support for activities throughout the Peatland Restoration Practitioners course.*
 
