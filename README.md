@@ -1,7 +1,9 @@
 # Peatland Restoration Practitioner Course
 
-![](https://github.com/yorkshire-peat-partnership/Peatland-Restoration-Practioner-Course/blob/main/YPP_logo.png)
+<img src="https://github.com/yorkshire-peat-partnership/Peatland-Restoration-Practioner-Course/blob/main/YPP_logo.png"/>
+<img src="https://www.ywt.org.uk/sites/default/files/YWT_LOGO_PRIMARY_COLOUR.jpg" width="400" />
 
+  
 Welcome to the Peat Restoration Practitioner GitHub! This is our repository for the GIS data you will need throughout the course. Please ensure this is downloaded onto your laptop ahead of the session.
 ### Day 2 (Tuesday 13th June)
 Please have the **Pre-Survey Mapping** files downloaded.
