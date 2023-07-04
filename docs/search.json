@@ -74,14 +74,14 @@
     "href": "index.html#categorising-features",
     "title": "QGIS for Peatland Restoration Practitioners",
     "section": "Categorising features",
-    "text": "Categorising features"
+    "text": "Categorising features\n\n\n\n\nSelecting multiple features by expression\n\n\n\n\n\nSelecting multiple features by location"
   },
   {
     "objectID": "index.html#extracting-data-from-qgis",
     "href": "index.html#extracting-data-from-qgis",
     "title": "QGIS for Peatland Restoration Practitioners",
     "section": "Extracting data from QGIS",
-    "text": "Extracting data from QGIS\nPlaceholder\n\nUsing GroupStats Plugin\nEnsure the GroupStats Plugin has been installed using the Plugins manager in QGIS.\n\nIf it has not been installed, please follow the guide to installing plugins."
+    "text": "Extracting data from QGIS\n\nInstalling GroupStats Plugin\nEnsure the GroupStats Plugin has been installed using the Plugins manager in QGIS.\n\nIf it has not been installed, please follow the guide to installing plugins."
   },
   {
     "objectID": "index.html#using-the-groupstats-plugin",
