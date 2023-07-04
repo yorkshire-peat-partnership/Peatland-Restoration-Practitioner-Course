@@ -282,17 +282,35 @@ Now you should have topologically correct boundaries:
 
 ## Categorising features
 
+:::{.column-page}
+![](/assets/Post-Survey categorisation.gif)
+:::
+
+### Selecting multiple features by expression
+
+:::{.column-page}
+![](/assets/Post-Survey Select by expression and buffer.gif)
+:::
+
+### Selecting multiple features by location
+
+:::{.column-page}
+![](/assets/Post-Survey Select by location and multiedit.gif)
+:::
+
 ## Extracting data from QGIS
 
-*Placeholder*
-
-### Using GroupStats Plugin
+### Installing GroupStats Plugin
 
 Ensure the GroupStats Plugin has been installed using the **Plugins manager** in QGIS.
 
 ![](/assets/t-groupstats-01.png)
 
 If it has not been installed, please follow the [guide to installing plugins](#sec-plugins).
+
+:::{.column-page}
+![](/assets/Groupstats installation.gif)
+:::
 
 ## Using the GroupStats Plugin
 
