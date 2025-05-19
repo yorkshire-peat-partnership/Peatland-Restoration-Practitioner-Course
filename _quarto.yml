@@ -1,3 +1,52 @@
 project:
   type: website
-  output-dir: docs
+  output-dir: site
+  
+website:
+  title: "Yorkshire Peat Partnership: Peat Practitioners Course Wiki"
+  search: false
+  page-navigation: true
+  page-footer:
+    left:
+      - text: "Yorkshire Peat Partnership © 2025"
+    center:
+      - text: "Yorkshire Peat Partnership"
+        file: "https://www.yppartnership.org.uk/"
+  
+  navbar:
+    title: "YPP Peat Practioners Course"
+    left:
+      - file: docs/q_basics/qb_index.qmd
+        text: "QGIS Basics"
+      - text: "3.2 - Pre-Survey Mapping"
+        menu:
+          - text: "Basic"
+            icon: "map"
+            href: docs/pre_survey/pr_basic.qmd
+          - text: "Detailed"
+            icon: "map-fill"
+            href: docs/pre_survey/pr_detailed.qmd
+      - file: docs/post_survey/po_index.qmd
+        text: "3.3 - Post-Survey Mapping"
+      - text: "5.2 - Restoration Planning"
+        menu:
+          - text: "Guide"
+            icon: "map"
+            href: docs/rest_planning/rp_index.qmd
+          - text: "Decision Treel Tool"
+            icon: "calculator"
+            href: docs/rest_planning/rp_calculator.qmd
+      - file: "https://padlet.com/ypeatpartnership/internal-peatland-restoration-practitioners-course-zwdir9yl5ns0qa22"
+        text: "Portfolio"
+      - file: docs/references/ref_index.qmd
+        text: "QGIS References"
+        
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-tools: true
+    code-overflow: wrap
+
+editor: visual
