@@ -1,0 +1,57 @@
+/* css styles */
+
+.navbar {
+background-color: rgb(106, 139, 137);
+}
+
+.navbar-title {
+color: rgb(247, 201, 18);
+}
+
+.menu-text {
+color: rgb(0, 0, 0);
+}
+
+.menu-text:hover {
+color: rgb(247, 201, 18);
+}
+
+.dropdown-toggle {
+color: rgb(0, 0, 0);
+}
+
+.dropdown-toggle:hover {
+color: rgb(247, 201, 18);
+}
+
+.nav-page .pagination-link:hover {
+color: rgb(247, 201, 18);
+}
+
+.title{
+color: rgb(92, 123, 142);
+}
+
+h1{
+color: rgb(92, 123, 142);
+}
+
+h2{
+color: rgb(92, 123, 142);
+}
+
+h3{
+color: rgb(92, 123, 142);
+}
+
+h1.anchored{
+color: rgb(92, 123, 142);
+}
+
+h2.anchored{
+color: rgb(92, 123, 142);
+}
+
+h3.anchored{
+color: rgb(92, 123, 142);
+}

@@ -4,90 +4,244 @@
     "href": "index.html",
     "title": "QGIS for Peatland Restoration Practitioners",
     "section": "",
-    "text": "QGIS support for activities throughout the Peatland Restoration Practitioners course.\nWe will be using QGIS to develop GIS skills useful for Peatland Restoration. Before the course, please ensure you have access to QGIS on your laptop and run through the QGIS Set up resource below to prepare for activities.\nIf you need to download QGIS please download version 3.16 long term release: Download QGIS"
+    "text": "QGIS support for activities throughout the Peatland Restoration Practitioners course.\n\nWe will be using QGIS to develop GIS skills useful for Peatland Restoration. Before the course, please ensure you have reviewed some of the tutorial resources to familiarise yourself with the software, but don’t worry, we will cover all the basics with you!\n\nThe categories in the navigation bar at the top of the screen will take you to a brief overview of the skills covered in the GIS modules of the course."
   },
   {
-    "objectID": "index.html#general-settings",
-    "href": "index.html#general-settings",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "General settings",
-    "text": "General settings"
+    "objectID": "docs/rest_planning/rp_calculator.html",
+    "href": "docs/rest_planning/rp_calculator.html",
+    "title": "Decision Tree Tool",
+    "section": "",
+    "text": "Decision Tree with Navigation\n    \n\n\n    \n        \n        \n            Loading...\n            \n        \n\n        \n        \n            \n        \n\n        \n        \n            \n                Back\n                Reset\n                Forward"
   },
   {
-    "objectID": "index.html#project-settings",
-    "href": "index.html#project-settings",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Project Settings",
-    "text": "Project Settings"
+    "objectID": "docs/q_basics/qb_index.html",
+    "href": "docs/q_basics/qb_index.html",
+    "title": "QGIS Basics",
+    "section": "",
+    "text": "When you sit down at your PC in the QGIS sections of the course, the latest version of QGIS will already be installed, configured and ready to go. All you need to do is open the Start menu and search for QGIS, click the icon and the program will load up."
   },
   {
-    "objectID": "index.html#sec-plugins",
-    "href": "index.html#sec-plugins",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Installing Plugins",
-    "text": "Installing Plugins\nOpen QGIS.\nOn the Menu Toolbar at the top of the application, navigate to Plugins > Manage and Install Plugins…\nThis will open the plugin manager.\nBegin typing the name of the plugin you want to install in the search bar. The available plugins will be filtered in the box below.\nSelect the plugin you want and Install Plugin.\n\n\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nPlugins only needed to be installed once and they will be available everytime you open QGIS.\n\n\nFor the course, please install the following plugins:\n\nQuickMapServices\nProvides background maps for QGIS from a variety of popular sources including, OSM, Esri, Google and Bing.\n\n\n\n\n\n\nNote\n\n\n\nQuickMapServices has an additional step to enable all the background maps.\nTo enable all the maps, go to Web > QuickMapServices > Settings\nFind the More services tab and click Get contributed pack then Save.\n\n\n\n\n\nThe plugin is then available on the Web > QuickMapServices > … tab of the Menu Toolbar.\n\n\n\n\n\n\nNote\n\n\n\nThe contributed pack only needs to be downloaded once per plugin install.\n\n\n\n\n\n\nGroupStats\nGroupStats is a plugin which allows you to aggregate data (sum, average, count, standard deviation, etc.) based on chosen groupings. It can be used on layers with a numerical column, or it can be used to calculate the individual or aggregate lengths/ areas from geometries."
+    "objectID": "docs/q_basics/qb_index.html#qgis-in-the-classroom",
+    "href": "docs/q_basics/qb_index.html#qgis-in-the-classroom",
+    "title": "QGIS Basics",
+    "section": "",
+    "text": "When you sit down at your PC in the QGIS sections of the course, the latest version of QGIS will already be installed, configured and ready to go. All you need to do is open the Start menu and search for QGIS, click the icon and the program will load up."
   },
   {
-    "objectID": "index.html#qgis-basics",
-    "href": "index.html#qgis-basics",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "QGIS Basics",
-    "text": "QGIS Basics\n\nHow to open a QGIS project\n\n\n\n\n\n\n\n\n\nHow to add a new layer\n\n\n\n\n\n\n\n\n\nHow to access background maps with QuickMapServices\n\n\n\n\n\n\n\n\n\nHow to switch between layers and add themes"
+    "objectID": "docs/q_basics/qb_index.html#how-to-open-a-qgis-project",
+    "href": "docs/q_basics/qb_index.html#how-to-open-a-qgis-project",
+    "title": "QGIS Basics",
+    "section": "How to open a QGIS project",
+    "text": "How to open a QGIS project\n\nClick Project&gt;Open in the menu bar.\nNavigate to the project file you want to open and click Open."
   },
   {
-    "objectID": "index.html#processing-toolbox",
-    "href": "index.html#processing-toolbox",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Processing Toolbox",
-    "text": "Processing Toolbox\n\nHow to access the processing toolbox\n\n\n\n\n\n\n\n\n\nHow to select by attribute\n\n\n\n\n\n\n\n\n\nHow to package layers"
+    "objectID": "docs/q_basics/qb_index.html#how-to-switch-between-layers",
+    "href": "docs/q_basics/qb_index.html#how-to-switch-between-layers",
+    "title": "QGIS Basics",
+    "section": "How to switch between layers",
+    "text": "How to switch between layers\nCheck and un-check the box next to the required layer to show and hide it."
   },
   {
-    "objectID": "index.html#introductory-tools",
-    "href": "index.html#introductory-tools",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Introductory Tools",
-    "text": "Introductory Tools\n\nHow to use the idenitfy tool to view attributes"
+    "objectID": "docs/q_basics/qb_index.html#how-to-add-themes",
+    "href": "docs/q_basics/qb_index.html#how-to-add-themes",
+    "title": "QGIS Basics",
+    "section": "How to add themes",
+    "text": "How to add themes\n\nHide/show the layers necessary for your Theme.\nClick the Themes button on the Layers panel  .\nSelect Add Theme and give it a name.\nYou can now view this combination of layers at any time by opening the Themes menu again and checking the name of your created Theme."
   },
   {
-    "objectID": "index.html#digitising-basics",
-    "href": "index.html#digitising-basics",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Digitising Basics",
-    "text": "Digitising Basics\n\nIntroduction\nThis tutorial will show you how to use QGIS to digitise features as well as best practices to ensure the features are accurately drawn.\n\nWhat is Digitising?\nDigitising is a term used in GIS for creating a vector data set that represents a real world feature. Vector data-sets are useful in that they allow the computer to easily calculate geometric attributes such as area or length.\n\n\nCreating a Layer\nOrdinarily, layers will already be created for you ready for digitising.\nIn this tutorial, however, we will create a Temporary Scratch Layer  for practicing.\nIn QGIS, navigate to Layer > Create Layer > New Temporary Scratch Layer… \nChange the Layer name and the Geometry type to the type of layer you would like to create.\n\n\nAdding Features\nTo begin digitising, click once on the layer you want to edit from the Layer Panel. A blue layer means it is selected.\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode.\n\n\n\n\n\nOnce you are in digitising mode, the Add Feature icon will become available. Depending on the geometry type of the temporary vector layer you have created, this will look slightly different.\n\n\n\n\n\n\n\nAdd Feature Icon\nLayer geometry type\n\n\n\n\n\nPoint, MultiPoint\n\n\n\nLineString, MultiLineString\n\n\n\nPolygon, MultiPolygon\n\n\n\nTo digitise, left click to place a node. Move the mouse and left click again to add another node.\nIf you have made a mistake, press Backspace to remove the previous node.\nOnce you have finished the feature, right click to complete the geometry.\nSave Layer Edits  to commit the changes to the data source.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSnapping\nThe QGIS Snapping tool can be used to create features that connect to each other, to increase the accuracy of edits.\nTo turn on snapping, navigate to Project > Snapping Options… > Enable Snapping (S) \nTurn on All Layers , Vertex .\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode.\nHover over the vertices of the layer you would like to snap to. It should show a purple box.\nLeft click to begin snapping and adding to the Temporary Scratch Layer .\n\n\n\n\n\n\n\nTracing\nAccurately matching features such as site boundaries can be challenging.\nIt is tedious and time consuming to make sure you snap to every point on a feature and inevitably, you may end up with something looking like this:\n\nAs you can see, there are a lot of gaps and the overlap between features are called ‘slivers’.\n\n\n\n\n\n\nImportant\n\n\n\nGaps and slivers must be avoided, as this may result in implications for calculating areas correctly.\n\n\nQGIS provides an excellent tracing tool which automatically snaps along the shortest path, ensuring that there are no overlaps or gaps.\nSelect Enable Snapping (S), click on Open Snapping Options and navigate to Advanced Configuration  in the Project Snapping Settings to turn snapping on for your desired layer.\n\n\n\n\n\nSelect the Enable Tracing (T) tool , Toggle Editing  and select the Add Polygon Feature (Ctrl+.)  to begin tracing the site boundary.\n\n\n\n\n\nNow you should have topologically correct boundaries:"
+    "objectID": "docs/q_basics/qb_index.html#how-to-draw-a-line-feature",
+    "href": "docs/q_basics/qb_index.html#how-to-draw-a-line-feature",
+    "title": "QGIS Basics",
+    "section": "How to draw a line feature",
+    "text": "How to draw a line feature\n\nSelect the relevant layer you want to draw on in the Layers Panel.\nSet the layer to be editable with the Toggle Editing button .\nNext click the Add Line Feature tool  .\nStart drawing your feature, Right-click when you have finished and confirm any details related to the line."
   },
   {
-    "objectID": "index.html#digitising-specific-features",
-    "href": "index.html#digitising-specific-features",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Digitising specific features",
-    "text": "Digitising specific features\n\nAccess tracks\n\n\n\n\n\n\n\n\n\nWatercourses\n\n\n\n\n\n\n\n\nEditing digitised watercourses\n\n\n\n\n\n\n\n\n\n\nGrips\n\n\n\n\n\n\n\n\n\nGullies\n\n\n\n\n\n\n\n\n\nHags\n\n\n\n\n\n\n\n\n\nAreas of bare peat"
+    "objectID": "docs/q_basics/qb_index.html#how-to-edit-a-line-feature",
+    "href": "docs/q_basics/qb_index.html#how-to-edit-a-line-feature",
+    "title": "QGIS Basics",
+    "section": "How to edit a line feature",
+    "text": "How to edit a line feature\n\nSelect the relevant layer selected and editable, click the Vertex Tool icon .\nBy clicking each point along your line you can re-position it.\nAdditional points can be created by clicking the cross at the central point of each line.\nPoints can be deleted by clicking them and then pressing the Delete key."
   },
   {
-    "objectID": "index.html#survey-setup",
-    "href": "index.html#survey-setup",
-    "title": "QGIS for Peatland Restoration Practitioners",
+    "objectID": "docs/q_basics/qb_index.html#how-to-draw-a-polygon",
+    "href": "docs/q_basics/qb_index.html#how-to-draw-a-polygon",
+    "title": "QGIS Basics",
+    "section": "How to draw a polygon",
+    "text": "How to draw a polygon\n\nSelect the relevant layer in the Layers Panel.\nSet the layer to be editable with the Toggle Editing button .\nNext click the Add Polygon Feature tool  .\nStart drawing your feature, Right-click when you have finished and confirm any details related to the polygon."
+  },
+  {
+    "objectID": "docs/q_basics/qb_index.html#how-to-select-a-feature",
+    "href": "docs/q_basics/qb_index.html#how-to-select-a-feature",
+    "title": "QGIS Basics",
+    "section": "How to select a feature",
+    "text": "How to select a feature\n\nSelect the relevant layer selected in the Layers Panel.\nClick the Select Feature(s)  tool. You can now select any features by clicking them or dragging a box around them. This will turn them yellow when selected.\nThis can also be done Freehand  or by drawing a Polygon .\nClick the Deselect Features From All Layers  tool to de-select all selected features.\n\n\n\n\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nWith the Select Features  tool active you can select multiple features by Ctrl-Clicking each one individually."
+  },
+  {
+    "objectID": "docs/q_basics/qb_index.html#saving-your-changes",
+    "href": "docs/q_basics/qb_index.html#saving-your-changes",
+    "title": "QGIS Basics",
+    "section": "Saving your changes",
+    "text": "Saving your changes\n\nAll changes you make to a layer you have made editable needs to be saved by clicking the Save button  on the menu bar.\nWhile you have un-saved changes for a layer, the edit icon on the Layers Panel will appear in red . When you have saved it will turn yellow.\nAny changes you make to the framework of the map, such as whether a layer is visible or what colours it uses, are saved as a Project file (.qgz).\nTo save the Project as a whole, click Project&gt;Save As…\n\n\n\n\n\n\n\nCaution\n\n\n\nSaving the Project file will not save any changes made to individual layers such as new lines or polygons you have drawn. These changes must be saved by clicking Save on the menu bar."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html",
+    "href": "docs/pre_survey/pr_detailed.html",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "",
+    "text": "This tutorial will show you some usage of basic QGIS functions in a little more detail. Here you will learn more about how to digitise features as well as best practices to ensure the features are accurately drawn."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html#what-is-digitising",
+    "href": "docs/pre_survey/pr_detailed.html#what-is-digitising",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "What is Digitising?",
+    "text": "What is Digitising?\nDigitising is a term used in GIS for creating a vector data set that represents a real world feature. Vector data-sets are useful in that they allow the computer to easily calculate geometric attributes such as area or length."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html#creating-a-layer",
+    "href": "docs/pre_survey/pr_detailed.html#creating-a-layer",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "Creating a Layer",
+    "text": "Creating a Layer\nIn the GIS classes of this course, layers will already be created for you ready for digitising.\nIn this tutorial, however, we will create a Temporary Scratch Layer  for practicing.\nIn QGIS, navigate to Layer &gt; Create Layer &gt; New Temporary Scratch Layer… \nChange the Layer name and the Geometry type to the type of layer you would like to create."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html#sec-adding-features",
+    "href": "docs/pre_survey/pr_detailed.html#sec-adding-features",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "Adding Features",
+    "text": "Adding Features\nTo begin digitising, click once on the layer you want to edit from the Layer Panel. A blue layer means it is selected.\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode - aka editing mode.\nOnce you are in digitising mode, the Add Feature icon will become available. Depending on the geometry type of the temporary vector layer you have created, this will look slightly different.\n\n\n\n\n\n\n\nAdd Feature Icon\nLayer geometry type\n\n\n\n\n\nPoint, MultiPoint\n\n\n\nLineString, MultiLineString\n\n\n\nPolygon, MultiPolygon\n\n\n\nTo digitise, left click to place a node. Move the mouse and left click again to add another node.\nIf you have made a mistake, press Backspace to remove the previous node.\nOnce you have finished the feature, right click to complete the geometry.\nSave Layer Edits  to commit the changes to the data source.\nThis is an example of a line feature being created.\n\n\n\n\n\nThis is an example of point features being created."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html#snapping",
+    "href": "docs/pre_survey/pr_detailed.html#snapping",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "Snapping",
+    "text": "Snapping\nThe QGIS Snapping tool can be used to create features that connect to each other, to increase the accuracy of edits.\nTo turn on snapping, navigate to Project &gt; Snapping Options… &gt; Enable Snapping (S) \nTurn on All Layers , Vertex .\nClick on the yellow pencil  on the Digitising Panel to Toggle Digitising Mode.\nHover over the vertices of the layer you would like to snap to. It should show a purple box.\nLeft click to begin snapping and adding to the Temporary Scratch Layer ."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_detailed.html#sec-tracing",
+    "href": "docs/pre_survey/pr_detailed.html#sec-tracing",
+    "title": "3.2 - Pre-Survey Mapping Detailed",
+    "section": "Tracing",
+    "text": "Tracing\nAccurately matching features such as site boundaries can be challenging.\nIt is tedious and time consuming to make sure you snap to every point on a feature and inevitably, you may end up with something looking like this:\n\nAs you can see, there are a lot of gaps and the overlap between features are called ‘slivers’.\n\n\n\n\n\n\nImportant\n\n\n\nGaps and slivers must be avoided, as this may result in implications for calculating areas correctly.\n\n\nQGIS provides an excellent tracing tool which automatically snaps along the shortest path, ensuring that there are no overlaps or gaps.\nSelect Enable Snapping (S), click on Open Snapping Options and navigate to Advanced Configuration  in the Project Snapping Settings to turn snapping on for your desired layer.\n\n\n\n\n\nSelect the Enable Tracing (T) tool , Toggle Editing  and select the Add Polygon Feature (Ctrl+.)  to begin tracing the site boundary.\n\n\n\n\n\nNow you should have topologically correct boundaries:"
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html",
+    "href": "docs/post_survey/po_index.html",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "",
+    "text": "In this section of the course you will be checking a number of features mapped in the Pre-mapping (3.2) phase and comparing them to the information recorded during a subsequent field survey. The field survey results are recorded as points. For clarity we have set their data to be displayed in Labels."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#identifying-features-and-the-appropriate-restoration-work",
+    "href": "docs/post_survey/po_index.html#identifying-features-and-the-appropriate-restoration-work",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "",
+    "text": "In this section of the course you will be checking a number of features mapped in the Pre-mapping (3.2) phase and comparing them to the information recorded during a subsequent field survey. The field survey results are recorded as points. For clarity we have set their data to be displayed in Labels."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#how-to-access-and-edit-the-attribute-table",
+    "href": "docs/post_survey/po_index.html#how-to-access-and-edit-the-attribute-table",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "How to access and edit the Attribute Table",
+    "text": "How to access and edit the Attribute Table\n\nSelect  the feature on the map canvas you want to view and/or edit.\nWhen it turns yellow to indicate it has been selected, click the Attribute Table button .\nYour selected feature will be highlighted on the table in blue. Each column in the table holds a different piece of data and each can be edited.\nTo do this, first making the table editable  and then click the relevant data field.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you cannot see your selected feature in the Attribute Table, click the Move Selection to the Top button  to set the feature as the first item listed on the table."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#how-to-use-the-identify-features-tool",
+    "href": "docs/post_survey/po_index.html#how-to-use-the-identify-features-tool",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "How to use the Identify Features tool",
+    "text": "How to use the Identify Features tool\n\nThis represents an alternative way to edit the details of a single feature.\nClick on the Identify Features tool .\nWith this tool selected you can click on a feature and see the attributes associated with it in a pop-up window.\nIf the layer is editable, you can change the attributes set for that particular feature.\nClick the Pan Map tool  to return to your standard pointer."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#how-to-display-the-identify-results-panel",
+    "href": "docs/post_survey/po_index.html#how-to-display-the-identify-results-panel",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "How to display the Identify Results Panel",
+    "text": "How to display the Identify Results Panel\n\nBy right-clicking the menu bar you can show the Identify Results Panel by checking its box.\nThis panel can be used to keep the attributes of a feature clicked with the Identify Features tool after the pop-up box has been closed.\nThe panel will remain visible until you close it with the X in it’s top-right corner."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#how-to-split-features",
+    "href": "docs/post_survey/po_index.html#how-to-split-features",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "How to Split Features",
+    "text": "How to Split Features\n\nShould you find two different survey points along the same feature, you may want to split the feature.\nTo do this click the Split Features button .\nLeft-click either side of the feature to draw a line where the split will be made and then right-click."
+  },
+  {
+    "objectID": "docs/post_survey/po_index.html#how-to-edit-multiple-features-simultaneously",
+    "href": "docs/post_survey/po_index.html#how-to-edit-multiple-features-simultaneously",
+    "title": "3.3 - Post-Survey Mapping",
+    "section": "How to edit multiple features simultaneously",
+    "text": "How to edit multiple features simultaneously\n\nTo change the attributes of multiple like features simultaneously, first select the features you wish to edit.\nOpen the Attribute Table  and click Toggle multi edit mode .\nSet the attributes to the desired values and save the changes by clicking the Save button .\nYou can revert the Attribute Table to its column view by clicking the table view  button at the bottom-right corner of the window."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_basic.html",
+    "href": "docs/pre_survey/pr_basic.html",
+    "title": "3.2 - Pre-Survey Mapping Basic",
+    "section": "",
+    "text": "Select the relevant layer selected in the Layers Panel.\nSet the layer to be editable with the pencil icon .\nThen click the add feature tool, this will look different for Points , Lines  and Polygons  .\nStart drawing over the feature using aerial photography or OSM Standard images as a guide. To see more detail you can zoom in by scrolling the mouse wheel.\nRight-click when you have finished.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nYou may need to pan the map around by dragging it with the middle mouse button to see the whole feature you are digitising."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_basic.html#digitising-specific-features",
+    "href": "docs/pre_survey/pr_basic.html#digitising-specific-features",
+    "title": "3.2 - Pre-Survey Mapping Basic",
+    "section": "",
+    "text": "Select the relevant layer selected in the Layers Panel.\nSet the layer to be editable with the pencil icon .\nThen click the add feature tool, this will look different for Points , Lines  and Polygons  .\nStart drawing over the feature using aerial photography or OSM Standard images as a guide. To see more detail you can zoom in by scrolling the mouse wheel.\nRight-click when you have finished.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nYou may need to pan the map around by dragging it with the middle mouse button to see the whole feature you are digitising."
+  },
+  {
+    "objectID": "docs/pre_survey/pr_basic.html#survey-setup",
+    "href": "docs/pre_survey/pr_basic.html#survey-setup",
+    "title": "3.2 - Pre-Survey Mapping Basic",
     "section": "Survey setup",
-    "text": "Survey setup\n\nAdding survey points\n\n\n\n\n\n\n\n\n\nCreating a print preview"
+    "text": "Survey setup\n\nAdding survey points\n\nOpen the Processing Toolbox by clicking Processing&gt;Toolbox and search for ‘Create grid’.\nSet Grid Extent to the site_boundary layer and the horizontal and vertical spacing to 100m, then click Run.\nYou will now have a grid of points that runs to the extent of the site boundary.\nGo back to the Processing Toolbox and search for ‘Clip’. Open this tool and select ‘Grid’ as the input layer and ‘site_boundary’ as the output, this will cut out a layer of points that fall only inside the site_boundary.\nYou can now remove the original Grid layer by right-clicking its entry in the layers panel and selecting Remove Layer.\n\n\n\n\n\n\n\nTip\n\n\n\n\nThe tools used in this process can also be found under Vector&gt;Geoprocessing Tools/Research Tools.\n\n\n\n\n\n\n\n\n\n\nCreating a print preview\n\nClick the Show Layout Manager button  and then Create.\nA name can then be added for your map, click Ok.\nThis will give you a blank layout view. To copy in your map click the Add Map button  and drag it out over the layout view."
   },
   {
-    "objectID": "index.html#categorising-features",
-    "href": "index.html#categorising-features",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Categorising features",
-    "text": "Categorising features\n\n\n\n\nSelecting multiple features by expression\n\n\n\n\n\nSelecting multiple features by location"
+    "objectID": "docs/references/ref_index.html",
+    "href": "docs/references/ref_index.html",
+    "title": "QGIS External References",
+    "section": "",
+    "text": "Within this page are a number of recommended external references to help you get to grips with QGIS.\n\n\n\n\n\n\nTip\n\n\n\nQGIS itself can be downloaded for free here.\n\n\nThe KlasKarlsson YouTube video ‘QGIS For Absolute Beginners’ is a great starting point, especially if you have yet to start the course."
   },
   {
-    "objectID": "index.html#extracting-data-from-qgis",
-    "href": "index.html#extracting-data-from-qgis",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Extracting data from QGIS",
-    "text": "Extracting data from QGIS\n\nInstalling GroupStats Plugin\nEnsure the GroupStats Plugin has been installed using the Plugins manager in QGIS.\n\nIf it has not been installed, please follow the guide to installing plugins."
+    "objectID": "docs/references/ref_index.html#introduction",
+    "href": "docs/references/ref_index.html#introduction",
+    "title": "QGIS External References",
+    "section": "",
+    "text": "Within this page are a number of recommended external references to help you get to grips with QGIS.\n\n\n\n\n\n\nTip\n\n\n\nQGIS itself can be downloaded for free here.\n\n\nThe KlasKarlsson YouTube video ‘QGIS For Absolute Beginners’ is a great starting point, especially if you have yet to start the course."
   },
   {
-    "objectID": "index.html#using-the-groupstats-plugin",
-    "href": "index.html#using-the-groupstats-plugin",
-    "title": "QGIS for Peatland Restoration Practitioners",
-    "section": "Using the GroupStats Plugin",
-    "text": "Using the GroupStats Plugin\nOnce the plugin has installed, you can open it by navigating to Vector > Group Stats.\nHere is an example dataset which contains all the grips, gullies, and hags for a site, along with their categories:\n\nThe plugin works by dragging and dropping certain fields into the Column, Row and Value boxes on the GroupStats window. The large box on the left-hand side will display the results of your calculation.\n\n\n\n\n\n\nTip\n\n\n\nIf you are familiar with Excel Pivot Tables, the principle is the same.\n\n\nYou must first select the layer you are would like to analyse on the Layers drop down which will populate the Fields box.\nThe Rows or Column box is where you put the field you want to group by. The Value box takes two parameters - the value you want to aggregate, and the aggregation function.\nIn this example, the value to be aggregated is Length, using the aggregation function Sum.\n\n\n\n\n\n\n\nNote\n\n\n\nYou can group the data by multiple fields, in the Rows or Columns boxes\n\n\nOnce you have setup the inputs to the GroupStats calculation, click Calculate to see the result:\n\n\nRestoration Example"
+    "objectID": "docs/references/ref_index.html#external-links",
+    "href": "docs/references/ref_index.html#external-links",
+    "title": "QGIS External References",
+    "section": "External Links",
+    "text": "External Links\nOfficial QGIS ‘Gentle Introduction to GIS’\nOfficial QGIS User Manual\nOfficial QGIS Training Manual\nBurdGIS YouTube Tutorials\nKlasKarlsson YouTube Tutorials"
+  },
+  {
+    "objectID": "docs/rest_planning/rp_index.html",
+    "href": "docs/rest_planning/rp_index.html",
+    "title": "5.2 - Restoration Planning",
+    "section": "",
+    "text": "Plug-ins are additonal pieces of functionality that can be added to QGIS using the Plug-in manager. However, for the purposes of this course we have already installed GroupStats for you. GroupStats can be used to summarise your data quickly as well as carry out calculations, similar to Excel.\n\n\nGroupStats can be opened by navigating to Vector &gt; Group Stats or by clicking the GroupStats icon .\nBelow is an example dataset produced by GroupStats which shows all the grips, gullies, and hags for a site, displayed with their categories.\n\n\n\nThe plugin works by dragging and dropping the desired fields into the Column, Row and Value boxes on the GroupStats window.\nThe large box on the left-hand side will display the results of your calculation.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are familiar with Excel Pivot Tables, the principle is the same."
+  },
+  {
+    "objectID": "docs/rest_planning/rp_index.html#extracting-data-from-qgis---using-the-groupstats-plugin",
+    "href": "docs/rest_planning/rp_index.html#extracting-data-from-qgis---using-the-groupstats-plugin",
+    "title": "5.2 - Restoration Planning",
+    "section": "",
+    "text": "Plug-ins are additonal pieces of functionality that can be added to QGIS using the Plug-in manager. However, for the purposes of this course we have already installed GroupStats for you. GroupStats can be used to summarise your data quickly as well as carry out calculations, similar to Excel.\n\n\nGroupStats can be opened by navigating to Vector &gt; Group Stats or by clicking the GroupStats icon .\nBelow is an example dataset produced by GroupStats which shows all the grips, gullies, and hags for a site, displayed with their categories.\n\n\n\nThe plugin works by dragging and dropping the desired fields into the Column, Row and Value boxes on the GroupStats window.\nThe large box on the left-hand side will display the results of your calculation.\n\n\n\n\n\n\n\nTip\n\n\n\nIf you are familiar with Excel Pivot Tables, the principle is the same."
+  },
+  {
+    "objectID": "docs/rest_planning/rp_index.html#how-to-create-a-groupstats-calculation",
+    "href": "docs/rest_planning/rp_index.html#how-to-create-a-groupstats-calculation",
+    "title": "5.2 - Restoration Planning",
+    "section": "How to create a GroupStats calculation",
+    "text": "How to create a GroupStats calculation\n\nFirst, select the layer you are would like to analyse on the Layers drop down which will populate the Fields box.\nThe Rows or Column box is where you put the field you want to group by.\nThe Value box takes two parameters - the value you want to aggregate, and the aggregation function.\nIn this example, the value to be aggregated is from the erosion_features_summary layer (which takes values of all grips, gullies and hags).\nThe value to be produced is Length, using the aggregation function Sum.\nIn the results you can see rows for the total length of grips, gullies and hags on the map.\n\n\n\n\n\n\n\n\nImportant\n\n\n\nThe values displayed will be measured in the units used by the QGIS project, in our case it is measured in metres."
+  },
+  {
+    "objectID": "docs/rest_planning/rp_index.html#using-multiple-data-fields",
+    "href": "docs/rest_planning/rp_index.html#using-multiple-data-fields",
+    "title": "5.2 - Restoration Planning",
+    "section": "Using multiple data fields",
+    "text": "Using multiple data fields\n\nYou can group the data by multiple fields, in the Rows or Columns boxes\nOnce you have setup the inputs to the GroupStats calculation, click Calculate to see the result:\n\n\n\nGroupStats Example\nIn this animated example we show the creation of a sum of all Grip lengths, a sum of Bare Peat area and then a sum of Bare Peat separated by category."
   }
 ]
