@@ -320,20 +320,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
                     question: "Is the peat shallower than 30cm?",
                     answers: {
                         NO: {
-                            question: "Is the peat vegetated with sphagnum present?",
+                            question: "Is it wider than 3m?",
                             answers: {
-                                YES: {
-                                    question: "Is it less than 3m wide?",
-                                    answers: {
-                                        YES: { result: "Timber dam" },
-                                        NO: { result: "Timber baffle" }
-                                    }
-                                },
+                                YES: { result: "Timber baffle" },
                                 NO: {
-                                    question: "Is it less than 3m wide?",
+                                    question: "Is the slope shallow enough for peat dams?",
                                     answers: {
                                         YES: { result: "Peat dam" },
-                                        NO: { result: "Timber baffle" }
+                                        NO: { result: "Timber dam" }
                                     }
                                 }
                             }
