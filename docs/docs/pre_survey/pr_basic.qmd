@@ -1,0 +1,81 @@
+---
+title: "3.2 - Pre-Survey Mapping Basic"
+format:
+  html:
+    toc: TRUE
+    toc-location: right
+    toc-title: "Contents"
+    toc-depth: 5
+---
+
+## Digitising specific features
+
+-   Select the relevant layer selected in the **Layers Panel**.
+
+-   Set the layer to be editable with the pencil icon ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionToggleEditing.svg).
+
+-   Then click the add feature tool, this will look different for Points ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCapturePoint.svg), Lines ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCaptureLine.svg) and Polygons ![](https://raw.githubusercontent.com/qgis/QGIS/master/images/themes/default/mActionCapturePolygon.svg) .
+
+-   Start drawing over the feature using **aerial photography** or **OSM Standard** images as a guide. To see more detail you can zoom in by scrolling the **mouse wheel**.
+
+-   **Right-click** when you have finished.\
+
+::: callout-important
+You may need to pan the map around by dragging it with the **middle mouse button** to see the whole feature you are digitising.
+:::
+
+### Site Access
+
+![](/assets/pr_access_line.gif){fig-align="center"}
+
+### Watercourses
+
+![](/assets/pr_watercourse_line.gif){fig-align="center"}
+
+### Grips
+
+![](/assets/pr_grips_line.gif){fig-align="center"}
+
+### Gullies
+
+![](/assets/pr_gullies_lines.gif){fig-align="center"}
+
+### Hags
+
+![](/assets/pr_hags_lines.gif){fig-align="center"}
+
+### Areas of bare peat
+
+![](/assets/pr_bare_peat_polygon.gif){fig-align="center"}
+
+## Survey setup
+
+### Adding survey points
+
+-   Open the **Processing Toolbox** by clicking **Processing\>Toolbox** and search for **Create grid** ![](https://raw.githubusercontent.com/qgis/QGIS/7ad62da36df59bb3f3ab36bea05394d6ad571949/images/themes/default/algorithms/mAlgorithmCreateGrid.svg)**.**
+
+-   Set **Grid Extent** to the site_boundary layer and the horizontal and vertical spacing to 100m, then click **Run**.
+
+-   You will now have a grid of points that runs to the extent of the site boundary.
+
+-   Go back to the **Processing Toolbox** and search for **Clip** ![](https://raw.githubusercontent.com/qgis/QGIS/7ad62da36df59bb3f3ab36bea05394d6ad571949/images/themes/default/algorithms/mAlgorithmClip.svg). Open this tool and select 'Grid' as the input layer and 'site_boundary' as the output, this will cut out a layer of points that fall only inside the site_boundary.
+
+-   Select all of these clipped points, then **Copy** ![](https://raw.githubusercontent.com/qgis/QGIS/7ad62da36df59bb3f3ab36bea05394d6ad571949/images/themes/default/mActionEditCopy.svg) and **Paste** ![](https://raw.githubusercontent.com/qgis/QGIS/7ad62da36df59bb3f3ab36bea05394d6ad571949/images/themes/default/mActionEditPaste.svg)them into the '08_grid_points' layer and **Save** ![](https://raw.githubusercontent.com/qgis/QGIS/7ad62da36df59bb3f3ab36bea05394d6ad571949/images/themes/default/mActionFileSave.svg).
+
+-   You can now remove the original temporary Grid and Clip layers (as indicated by the icon in the Layers) by right-clicking its entry in the layers panel and selecting **Remove Layer**.
+
+::: callout-tip
+The tools used in this process can also be found under **Vector\>Geoprocessing Tools/Research Tools.**
+:::
+
+![](/assets/pr_survey_grid.gif){fig-align="center"}
+
+### Creating a print preview
+
+-   Click the **Show Layout Manager** button ![](https://raw.githubusercontent.com/qgis/QGIS/3d278c437876f4b686a53cecdff186a2fa924097/images/themes/default/mActionLayoutManager.svg) and then **Create**.
+
+-   A name can then be added for your map, click **Ok**.
+
+-   This will give you a blank layout view. To copy in your map click the **Add Map** button ![](https://raw.githubusercontent.com/qgis/QGIS/3d278c437876f4b686a53cecdff186a2fa924097/images/themes/default/mActionAddMap.svg) and drag it out over the layout view.
+
+![](/assets/pr_layout_manager.gif){fig-align="center"}
