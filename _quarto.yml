@@ -8,7 +8,7 @@ website:
   page-navigation: true
   page-footer:
     left:
-      - text: "Yorkshire Peat Partnership © 2025"
+      - text: "Yorkshire Peat Partnership © 2026"
     center:
       - text: "Yorkshire Peat Partnership"
         file: "https://www.yppartnership.org.uk/"
@@ -50,3 +50,4 @@ format:
     code-overflow: wrap
 
 editor: visual
+
